@@ -1,0 +1,133 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+	color: #eceff4;
+}
+
+.toolBar {
+	background-color: #2e3440;
+}
+
+.wrapper {
+	margin-top: 10vh;
+	padding: 0.2em;
+	box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+	border-radius: 10px;
+	background-color: #e5e9f006;
+}
+
+.twrapper {
+	margin-top: 10vh;
+	padding: 0.2em;
+	box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+	border-radius: 10px;
+	background-color: #81a1c1;
+}
+
+.ReactTable .rt-table {
+	background-color: #3b4252;
+	border-radius: 5px;
+}
+
+.thead {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+.home {
+	background-color: transparent;
+	border: none;
+	color: #eceff4;
+	font-size: 2em;
+	margin-right: 5vw;
+}
+
+.navButton {
+	padding: 0.3em;
+	margin-left: 1em;
+	background-color: transparent;
+	border: none;
+	border-radius: 8px;
+	color: #eceff4;
+	font-size: 1.5em;
+}
+
+.addButton {
+	padding: 0.3em;
+	margin-left: 1em;
+	background-color: transparent;
+	border: 1px solid #eceff4;
+	border-radius: 5px;
+	color: #eceff4;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.ReactTable .-pagination .-previous .-btn,
+.ReactTable .-pagination .-next .-btn {
+	color: #eceff4;
+	background-color: #3b4252;
+}
+
+.ReactTable .rt-table .rt-thead.-filters input {
+	background-color: #2e3440;
+	color: #eceff4;
+}
+
+.addButton::first-letter {
+	font-weight: bolder;
+}
+
+.navButton:hover,
+.addButton:hover,
+.delete:hover,
+.edit:hover {
+	background-color: #81a1c129;
+	transition: 0.25s ease-in-out;
+}
+
+.navButton:active,
+.addButton:active,
+.delete:active,
+.edit:active {
+	background-color: #d8dee94e;
+	transition: 0.1s ease-in-out;
+}
+
+.delete {
+	background-color: transparent;
+	border: 1px solid#bf616a;
+	border-radius: 5px;
+	color: #bf616a;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 2;
+}
+
+.edit {
+	background-color: transparent;
+	border: 1px solid#81a1c1;
+	border-radius: 5px;
+	color: #81a1c1;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 2;
+}
+
+.low {
+	color: #a3be8c;
+}
+
+.medium {
+	color: #ebcb8b;
+}
+
+.high {
+	color: #d08770;
+}
